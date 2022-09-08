@@ -1,0 +1,181 @@
+
+
+                                /* contacto */                  
+.main_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 144, 103);
+    width: 400px;
+    padding: 30px;
+
+}
+
+.contactarse {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+}
+
+.control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.boton {
+    /* text-align: center; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+.ppp {
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px){
+   .fifa22{
+    width: 300px;
+    position: absolute;
+    left:20px;
+    border-radius: 5px;
+    height: 200px;
+   }
+   .friday{
+   width: 300px;
+   position: absolute;
+   left: 20px;
+   top: 830px;
+   border-radius: 5px;
+}
+.carta{
+    width: 200px;
+    background-color: rgb(170, 168, 168);
+    margin-top: 40px;
+    padding: 0px;
+    margin-left: 60%;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.carta_imagen {
+    width: 200px;
+    right: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carta_juegos{
+    font-size: 1.5rem;
+}
+.carta_doble{
+    font-size: 1.2rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+                                /* productos */
+.productos_de_nuestra_página{
+    background-color: black;
+    color: white;
+}
+
+.producto_gamer{
+    background-color: black;
+    color: white;
+}
+
+.boton {
+    font-size: 20px;
+    right: 300px;
+    /* margin-bottom: 100px; */
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #f1e8e8;
+    background-color: rgb(60, 45, 145);
+
+}
+
+
+.tarjetitas{
+width: 300px;
+background-color:white;
+margin-bottom: 0px;
+padding: 0px;
+margin-right:1000px;
+border-radius: 5px;
+display: inline-block;
+}
+
+.silla{
+    width: 100%;
+    right: 600px;
+    margin-bottom: 100px;
+    margin-bottom: 10px;
+}
+
+
+.tarjetitas{
+    transition: transform 1s;
+}
+
+.tarjetitas:hover{
+    transform: scale(1.1);translate: 40px;
+
+}
+
+@media screen and (max-width: 480px){
+   .imagengamer{
+    width: 300px;
+ 
+    height: 300px;
+    width: 350px;
+   }
+ 
+}
+
+                                /* ofertas */
+
+.oferta_oferta{
+    background-color: black;
+    color: white;
+}
+
+.nuestros_productos{
+    background-color: black;
+    color: white;
+}
+
+
+.armar_tu_pc_gamer{
+    background-color: black;
+    color: white;
+}
+
+.componentes{
+    background-color: black;
+    color: white; 
+}
